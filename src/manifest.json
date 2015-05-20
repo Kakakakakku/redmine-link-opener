@@ -1,0 +1,17 @@
+{
+  "name": "redmine-link-opener",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Redmine のチケット番号指定でタブを開く",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "48": "./icon48.png"
+  }
+}
